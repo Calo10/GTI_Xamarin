@@ -1,0 +1,12 @@
+/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp/bin/Debug/netstandard2.0/GTIApp.deps.json
+/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp/bin/Debug/netstandard2.0/GTIApp.dll
+/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp/bin/Debug/netstandard2.0/GTIApp.pdb
+/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp/obj/Debug/netstandard2.0/GTIApp.csprojAssemblyReference.cache
+/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp/obj/Debug/netstandard2.0/GTIApp.csproj.CoreCompileInputs.cache
+/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp/obj/Debug/netstandard2.0/GTIApp.AssemblyInfoInputs.cache
+/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp/obj/Debug/netstandard2.0/GTIApp.AssemblyInfo.cs
+/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp/obj/Debug/netstandard2.0/GTIApp.dll
+/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp/obj/Debug/netstandard2.0/GTIApp.pdb
+/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp/obj/Debug/netstandard2.0/View/LoginView.xaml.g.cs
