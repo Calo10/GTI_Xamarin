@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="GTIApp.View.MenuView"
+             Title="GTI APP">
+    <StackLayout>
+        <!--Image Container-->
+        <StackLayout>
+            <Image HorizontalOptions="Center" 
+                   VerticalOptions="Center"
+                   Source="http://icons.iconarchive.com/icons/graphicloads/100-flat/256/home-icon.png"/>
+        </StackLayout>
+        <!--Listview Container-->
+        <StackLayout>
+            <ListView ItemsSource="{Binding lstMenu}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ImageCell Text="{Binding Name}" 
+                                   Detail="{Binding Detail}"
+                                   ImageSource="{Binding Icon}"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>

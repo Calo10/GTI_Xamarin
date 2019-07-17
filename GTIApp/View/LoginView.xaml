@@ -2,24 +2,30 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="GTIApp.View.LoginView">
-    <StackLayout HorizontalOptions="Center"
+    <StackLayout HorizontalOptions="Fill"
                  VerticalOptions="Center">
         <!-- Contenido-->
-        <StackLayout>
+        <StackLayout Padding="50,0"
+                     Spacing="20">
             <!--User-->
             <StackLayout Orientation="Horizontal">
-                <Label Text="User:"/>
-                <Entry Text="{Binding User}"/>
+                <Label Text="User:"
+                       HorizontalOptions="Start"/>
+                <Entry Text="{Binding User}"
+                       HorizontalOptions="FillAndExpand"/>
             </StackLayout>
             <!--Password-->
             <StackLayout Orientation="Horizontal">
-                <Label Text="Password:"/>
+                <Label Text="Password:"
+                       HorizontalOptions="Start"/>
                 <Entry Text="{Binding Pass}"
+                       HorizontalOptions="FillAndExpand"
                        IsPassword="true"/>
             </StackLayout>
             <!--Boton-->
             <StackLayout VerticalOptions="EndAndExpand">
               <Button Text="LOGIN" 
+                      VerticalOptions="EndAndExpand"
                       Command="{Binding LoginCommand}"/>
             </StackLayout>
         </StackLayout>

@@ -165,3 +165,4 @@
 /Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.Android/obj/Debug/android/assets/machine.config
 /Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.Android/obj/Debug/stamp/_CompileToDalvik.stamp
 /Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
+/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.Android/obj/Debug/android/assets/System.Runtime.dll

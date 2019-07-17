@@ -10,3 +10,8 @@
 /Users/carlosmendez/Projects/GTI/GTIApp/GTIApp/obj/Debug/netstandard2.0/GTIApp.dll
 /Users/carlosmendez/Projects/GTI/GTIApp/GTIApp/obj/Debug/netstandard2.0/GTIApp.pdb
 /Users/carlosmendez/Projects/GTI/GTIApp/GTIApp/obj/Debug/netstandard2.0/View/LoginView.xaml.g.cs
+/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp/obj/Debug/netstandard2.0/View/HomeView.xaml.g.cs
+/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp/obj/Debug/netstandard2.0/View/MenuView.xaml.g.cs
+/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp/obj/Debug/netstandard2.0/View/MyMasterDetailPage.xaml.g.cs
+/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp/obj/Debug/netstandard2.0/View/MyMasterDetailPageDetail.xaml.g.cs
+/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp/obj/Debug/netstandard2.0/View/MyMasterDetailPageMaster.xaml.g.cs

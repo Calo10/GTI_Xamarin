@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Windows.Input;
+using GTIApp.View;
 using Xamarin.Forms;
 
 namespace GTIApp.ViewModel
@@ -46,15 +47,23 @@ namespace GTIApp.ViewModel
 
         #region Methods
 
-        public void Login()
+        public async void Login()
         {
             if (User == "Carlos" && Pass == "123")
             {
 
+                NavigationPage navigation = new NavigationPage(new HomeView());
+
+                App.Current.MainPage = new MasterDetailPage
+                {
+                    Master = new MenuView(),
+                    Detail = navigation
+                };
+
             }
             else
             {
-
+                await App.Current.MainPage.DisplayAlert("Info", "Wrong Credentials", "Ok");
             }
 
         }
