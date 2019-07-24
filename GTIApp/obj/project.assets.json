@@ -68,7 +68,7 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
+      "sha512": "a/iSwnRZb+LHFk49hQOyThh/ZNC3vsbZsF65XwQIb863qF6msmhdQtxGXFL28Ob2NsCz/drEj28BJd/YPpLRBg==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -469,11 +469,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp/GTIApp.csproj",
+      "projectUniqueName": "/Users/carlosmendez/Documents/Personal/Projects/GTIMobile/GTIApp/GTIApp.csproj",
       "projectName": "GTIApp",
-      "projectPath": "/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp/GTIApp.csproj",
+      "projectPath": "/Users/carlosmendez/Documents/Personal/Projects/GTIMobile/GTIApp/GTIApp.csproj",
       "packagesPath": "/Users/carlosmendez/.nuget/packages/",
-      "outputPath": "/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp/obj/",
+      "outputPath": "/Users/carlosmendez/Documents/Personal/Projects/GTIMobile/GTIApp/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -485,8 +485,7 @@
         "netstandard2.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {},
-        "https://www.myget.org/F/xamarinforms-dev/api/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="GTIApp.View.AddPersonView">
+    <StackLayout>
+            <!--Name-->
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Nombre:"
+                       HorizontalOptions="Start"/>
+                <Entry Text="{Binding currentPerson.Name}"
+                       HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <!--Last Name-->
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Apellido:"
+                       HorizontalOptions="Start"/>
+                <Entry Text="{Binding currentPerson.LastName}"
+                       HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+            <!--Age-->
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Edad:"
+                       HorizontalOptions="Start"/>
+                <Entry Text="{Binding currentPerson.Age}"
+                       HorizontalOptions="FillAndExpand"/>
+            </StackLayout>
+        <Button Text="Agregar Persona"
+                Command="{Binding AddNewPersonCommand}"/>
+    </StackLayout>
+</ContentPage>

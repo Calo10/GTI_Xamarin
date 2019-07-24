@@ -1093,11 +1093,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.Android/GTIApp.Android.csproj",
+      "projectUniqueName": "/Users/carlosmendez/Documents/Personal/Projects/GTIMobile/GTIApp.Android/GTIApp.Android.csproj",
       "projectName": "GTIApp.Android",
-      "projectPath": "/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.Android/GTIApp.Android.csproj",
+      "projectPath": "/Users/carlosmendez/Documents/Personal/Projects/GTIMobile/GTIApp.Android/GTIApp.Android.csproj",
       "packagesPath": "/Users/carlosmendez/.nuget/packages/",
-      "outputPath": "/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.Android/obj/",
+      "outputPath": "/Users/carlosmendez/Documents/Personal/Projects/GTIMobile/GTIApp.Android/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
@@ -1107,14 +1107,13 @@
         "monoandroid81"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {},
-        "https://www.myget.org/F/xamarinforms-dev/api/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp/GTIApp.csproj": {
-              "projectPath": "/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp/GTIApp.csproj"
+            "/Users/carlosmendez/Documents/Personal/Projects/GTIMobile/GTIApp/GTIApp.csproj": {
+              "projectPath": "/Users/carlosmendez/Documents/Personal/Projects/GTIMobile/GTIApp/GTIApp.csproj"
             }
           }
         }

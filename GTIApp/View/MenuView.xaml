@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="GTIApp.View.MenuView"
+             x:Name="MenuPage"
              Title="GTI APP">
     <StackLayout>
         <!--Image Container-->
@@ -17,7 +18,9 @@
                     <DataTemplate>
                         <ImageCell Text="{Binding Name}" 
                                    Detail="{Binding Detail}"
-                                   ImageSource="{Binding Icon}"/>
+                                   ImageSource="{Binding Icon}"
+                                   Command="{Binding Path=BindingContext.EnterMenuOptionCommand, Source={x:Reference MenuPage}}"
+                                   CommandParameter="{Binding Id}"/>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>

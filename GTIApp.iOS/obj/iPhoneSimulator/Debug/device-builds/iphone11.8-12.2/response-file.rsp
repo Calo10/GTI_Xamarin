@@ -1,18 +1,18 @@
---cache=/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache
---sim=/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/GTIApp.iOS.app
+--cache=/Users/carlosmendez/Documents/Personal/Projects/GTIMobile/GTIApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-cache
+--sim=/Users/carlosmendez/Documents/Personal/Projects/GTIMobile/GTIApp.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/GTIApp.iOS.app
 --executable=GTIApp.iOS
 --debug
 --sgen-conc
 --nolink
---sdkroot=/Volumes/CODE/APPS/Xcode.app/Contents/Developer
+--sdkroot=/Applications/Xcode.app/Contents/Developer
 --sdk=12.2
 --targetver=8.0
 --aot-options=-O=-float32
 --http-message-handler=NSUrlSessionHandler
 --abi=x86_64
---symbollist=/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-symbols.list
+--symbollist=/Users/carlosmendez/Documents/Personal/Projects/GTIMobile/GTIApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/mtouch-symbols.list
 --dsym=no
--r=/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp/bin/Debug/netstandard2.0/GTIApp.dll
+-r=/Users/carlosmendez/Documents/Personal/Projects/GTIMobile/GTIApp/bin/Debug/netstandard2.0/GTIApp.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll
 -r=/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll
@@ -202,7 +202,7 @@
 -r=/Users/carlosmendez/.nuget/packages/xamarin.forms/3.6.0.264807/lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/carlosmendez/.nuget/packages/xamarin.forms/3.6.0.264807/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
 -r=/Users/carlosmendez/.nuget/packages/xamarin.forms/3.6.0.264807/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
--r=/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp/bin/Debug/netstandard2.0/GTIApp.dll
+-r=/Users/carlosmendez/Documents/Personal/Projects/GTIMobile/GTIApp/bin/Debug/netstandard2.0/GTIApp.dll
 --target-framework=Xamarin.iOS,v1.0
---root-assembly=/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.iOS/bin/iPhoneSimulator/Debug/GTIApp.iOS.exe
+--root-assembly=/Users/carlosmendez/Documents/Personal/Projects/GTIMobile/GTIApp.iOS/bin/iPhoneSimulator/Debug/GTIApp.iOS.exe
 

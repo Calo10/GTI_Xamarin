@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Windows.Input;
 using GTIApp.Model;
 using GTIApp.View;
 using Xamarin.Forms;
@@ -26,6 +27,8 @@ namespace GTIApp.ViewModel
                 OnPropertyChanged("lstMenu");
             }
         }
+
+        public ICommand EnterMenuOptionCommand { get; set; }
         #endregion
 
         #region Methods
@@ -34,11 +37,26 @@ namespace GTIApp.ViewModel
         {
             ((MasterDetailPage)App.Current.MainPage).Detail.Navigation.PushAsync(new LoginView());
         }
+
+        public void EnterMenuOption(int Id)
+        {
+            switch (Id)
+            {
+                case 1:
+                    ((MasterDetailPage)App.Current.MainPage).Detail.Navigation.PushAsync(new MainPersonView());
+                    break;
+
+                default:
+                    break;
+            }
+
+        }
         #endregion
 
         public HomeViewModel()
         {
             lstMenu = MenuModel.GetMenu();
+            EnterMenuOptionCommand = new Command<int>(EnterMenuOption);
         }
 
         #region INotifyPropertyChanged Implementation
