@@ -12,9 +12,6 @@
 /Users/carlosmendez/Projects/GTI/GTIApp/GTIApp/obj/Debug/netstandard2.0/View/LoginView.xaml.g.cs
 /Users/carlosmendez/Projects/GTI/GTIApp/GTIApp/obj/Debug/netstandard2.0/View/HomeView.xaml.g.cs
 /Users/carlosmendez/Projects/GTI/GTIApp/GTIApp/obj/Debug/netstandard2.0/View/MenuView.xaml.g.cs
-/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp/obj/Debug/netstandard2.0/View/MyMasterDetailPage.xaml.g.cs
-/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp/obj/Debug/netstandard2.0/View/MyMasterDetailPageDetail.xaml.g.cs
-/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp/obj/Debug/netstandard2.0/View/MyMasterDetailPageMaster.xaml.g.cs
 /Users/carlosmendez/Documents/Personal/Projects/GTIMobile/GTIApp/bin/Debug/netstandard2.0/GTIApp.deps.json
 /Users/carlosmendez/Documents/Personal/Projects/GTIMobile/GTIApp/bin/Debug/netstandard2.0/GTIApp.dll
 /Users/carlosmendez/Documents/Personal/Projects/GTIMobile/GTIApp/bin/Debug/netstandard2.0/GTIApp.pdb
@@ -31,3 +28,5 @@
 /Users/carlosmendez/Documents/Personal/Projects/GTIMobile/GTIApp/obj/Debug/netstandard2.0/GTIApp.pdb
 /Users/carlosmendez/Documents/Personal/Projects/GTIMobile/GTIApp/obj/Debug/netstandard2.0/View/Person/AddPersonView.xaml.g.cs
 /Users/carlosmendez/Documents/Personal/Projects/GTIMobile/GTIApp/obj/Debug/netstandard2.0/View/Person/MainPersonView.xaml.g.cs
+/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp/obj/Debug/netstandard2.0/View/Person/AddPersonView.xaml.g.cs
+/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp/obj/Debug/netstandard2.0/View/Person/MainPersonView.xaml.g.cs
