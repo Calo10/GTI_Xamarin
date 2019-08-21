@@ -23,6 +23,9 @@ namespace GTIApp.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
+            //Initialize Maps
+            Xamarin.FormsMaps.Init();
+
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

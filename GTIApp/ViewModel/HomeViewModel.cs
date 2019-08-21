@@ -46,6 +46,14 @@ namespace GTIApp.ViewModel
                     ((MasterDetailPage)App.Current.MainPage).Detail.Navigation.PushAsync(new MainPersonView());
                     break;
 
+                case 2:
+                    ((MasterDetailPage)App.Current.MainPage).Detail.Navigation.PushAsync(new TabbedPageHomeView());
+                    break;
+
+                case 3:
+                    ((MasterDetailPage)App.Current.MainPage).Detail.Navigation.PushAsync(new MapView());
+                    break;
+
                 default:
                     break;
             }

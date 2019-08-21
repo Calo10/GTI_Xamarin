@@ -2,6 +2,7 @@
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Net.Http;
+using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 
@@ -47,14 +48,16 @@ namespace GTIApp.Model
         public int Age { get; set; }
         public string Photo { get; set; }
 
+
         #endregion
 
+        #region Methods
         public async static Task<ObservableCollection<PersonModel>> GetAllPersons()
         {
             using (HttpClient client = new HttpClient())
             {
 
-                var uri = new Uri("");
+                var uri = new Uri("http://20710e5a.ngrok.io/api/values");
 
                 HttpResponseMessage response = await client.GetAsync(uri).ConfigureAwait(false);
 
@@ -65,6 +68,32 @@ namespace GTIApp.Model
                 return lstPersonas;
             }
         }
+
+        public async static Task<bool> AddPerson(PersonModel person)
+        {
+            using (HttpClient client = new HttpClient())
+            {
+                var uri = new Uri("http://20710e5a.ngrok.io/api/values");
+
+                var json = JsonConvert.SerializeObject(new
+                {
+                    person.Name,
+                    Detail = "",
+                    Gender = "",
+                    person.Age
+                });
+
+                var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+                HttpResponseMessage response = await client.PostAsync(uri, content).ConfigureAwait(false);
+                string ans = await response.Content.ReadAsStringAsync();
+
+                return JsonConvert.DeserializeObject<bool>(ans);
+            }
+
+        }
+
+        #endregion
 
         #region INotifyPropertyChanged Implementation
         public event PropertyChangedEventHandler PropertyChanged;

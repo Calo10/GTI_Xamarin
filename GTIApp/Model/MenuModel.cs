@@ -15,8 +15,8 @@ namespace GTIApp.Model
             ObservableCollection<MenuModel> lstMenu = new ObservableCollection<MenuModel>
             {
                 new MenuModel { Id = 1, Name = "Persona", Detail = "", Icon = "http://icons.iconarchive.com/icons/graphicloads/100-flat/256/home-icon.png" },
-                new MenuModel { Id = 2, Name = "MENU 2", Detail = "", Icon = "http://icons.iconarchive.com/icons/graphicloads/100-flat/256/home-icon.png" },
-                new MenuModel { Id = 3, Name = "MENU 3", Detail = "", Icon = "" }
+                new MenuModel { Id = 2, Name = "TabbPage", Detail = "", Icon = "http://icons.iconarchive.com/icons/graphicloads/100-flat/256/home-icon.png" },
+                new MenuModel { Id = 3, Name = "Mapa", Detail = "", Icon = "" }
             };
 
             return lstMenu;

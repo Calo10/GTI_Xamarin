@@ -19,6 +19,9 @@ namespace GTIApp.Droid
 
             base.OnCreate(savedInstanceState);
 
+            //Initialize Maps
+            Xamarin.FormsMaps.Init(this, savedInstanceState);
+
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());
