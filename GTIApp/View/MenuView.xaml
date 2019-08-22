@@ -9,7 +9,7 @@
         <StackLayout>
             <Image HorizontalOptions="Center" 
                    VerticalOptions="Center"
-                   Source="http://icons.iconarchive.com/icons/graphicloads/100-flat/256/home-icon.png"/>
+                   Source="MenuIcon.png"/>
         </StackLayout>
         <!--Listview Container-->
         <StackLayout>

@@ -21,6 +21,7 @@
     <Folder Include="ViewModel\" />
     <Folder Include="View\" />
     <Folder Include="View\Person\" />
+    <Folder Include="View\Behavior\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="View\NewPage.xaml.cs" />

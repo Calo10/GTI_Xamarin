@@ -119,3 +119,4 @@
 /Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.iOS/obj/iPhoneSimulator/Debug/GTIApp.iOS.csproj.CopyComplete
 /Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.iOS/obj/iPhoneSimulator/Debug/GTIApp.iOS.exe
 /Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.iOS/obj/iPhoneSimulator/Debug/GTIApp.iOS.pdb
+/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.2/optimized/MenuIcon.png
