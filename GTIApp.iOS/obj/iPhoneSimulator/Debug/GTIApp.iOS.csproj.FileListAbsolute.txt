@@ -120,3 +120,4 @@
 /Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.iOS/obj/iPhoneSimulator/Debug/GTIApp.iOS.exe
 /Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.iOS/obj/iPhoneSimulator/Debug/GTIApp.iOS.pdb
 /Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.2/optimized/MenuIcon.png
+/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.iOS/bin/iPhoneSimulator/Debug/ImageCircle.Forms.Plugin.dll

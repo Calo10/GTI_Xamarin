@@ -20,6 +20,18 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.446417"
+        },
+        "compile": {
+          "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.0.1": {
         "type": "package",
         "dependencies": {
@@ -174,6 +186,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.2",
+          "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
           "Xamarin.Essentials": "1.0.1",
           "Xamarin.Forms": "3.6.0.264807",
           "Xamarin.Forms.Maps": "3.6.0.264807"
@@ -205,6 +218,18 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.446417"
+        },
+        "compile": {
+          "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.0.1": {
         "type": "package",
         "dependencies": {
@@ -359,6 +384,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.2",
+          "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
           "Xamarin.Essentials": "1.0.1",
           "Xamarin.Forms": "3.6.0.264807",
           "Xamarin.Forms.Maps": "3.6.0.264807"
@@ -390,6 +416,18 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.446417"
+        },
+        "compile": {
+          "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.0.1": {
         "type": "package",
         "dependencies": {
@@ -544,6 +582,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.2",
+          "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
           "Xamarin.Essentials": "1.0.1",
           "Xamarin.Forms": "3.6.0.264807",
           "Xamarin.Forms.Maps": "3.6.0.264807"
@@ -575,6 +614,18 @@
           "lib/xamarinios10/_._": {}
         }
       },
+      "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.0.0.446417"
+        },
+        "compile": {
+          "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/ImageCircle.Forms.Plugin.dll": {}
+        }
+      },
       "Xamarin.Essentials/1.0.1": {
         "type": "package",
         "dependencies": {
@@ -729,6 +780,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.2",
+          "Xam.Plugins.Forms.ImageCircle": "3.0.0.5",
           "Xamarin.Essentials": "1.0.1",
           "Xamarin.Forms": "3.6.0.264807",
           "Xamarin.Forms.Maps": "3.6.0.264807"
@@ -817,6 +869,27 @@
         "system.numerics.vectors.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Xam.Plugins.Forms.ImageCircle/3.0.0.5": {
+      "sha512": "in+ZqtkN2MC7oF/bQWqr84M/n6drISzFEL5QFB6fKLwF2yshTZRnmLvyhXtFGOCfy9ZpIfY1sDjSc6r2mbEwTw==",
+      "type": "package",
+      "path": "xam.plugins.forms.imagecircle/3.0.0.5",
+      "files": [
+        ".signature.p7s",
+        "lib/monoandroid71/ImageCircle.Forms.Plugin.dll",
+        "lib/monoandroid71/ImageCircle.Forms.Plugin.xml",
+        "lib/netstandard1.0/ImageCircle.Forms.Plugin.dll",
+        "lib/netstandard1.0/ImageCircle.Forms.Plugin.xml",
+        "lib/netstandard2.0/ImageCircle.Forms.Plugin.dll",
+        "lib/netstandard2.0/ImageCircle.Forms.Plugin.xml",
+        "lib/uap10.0.16299/ImageCircle.Forms.Plugin.dll",
+        "lib/uap10.0.16299/ImageCircle.Forms.Plugin.pri",
+        "lib/uap10.0.16299/ImageCircle.Forms.Plugin.xml",
+        "lib/xamarinios10/ImageCircle.Forms.Plugin.dll",
+        "lib/xamarinios10/ImageCircle.Forms.Plugin.xml",
+        "xam.plugins.forms.imagecircle.3.0.0.5.nupkg.sha512",
+        "xam.plugins.forms.imagecircle.nuspec"
       ]
     },
     "Xamarin.Essentials/1.0.1": {
@@ -1058,6 +1131,7 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "GTIApp >= 1.0.0",
+      "Xam.Plugins.Forms.ImageCircle >= 3.0.0.5",
       "Xamarin.Essentials >= 1.0.1",
       "Xamarin.Forms >= 3.6.0.264807",
       "Xamarin.Forms.Maps >= 3.6.0.264807"
@@ -1099,6 +1173,10 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "Xam.Plugins.Forms.ImageCircle": {
+            "target": "Package",
+            "version": "[3.0.0.5, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.0.1, )"

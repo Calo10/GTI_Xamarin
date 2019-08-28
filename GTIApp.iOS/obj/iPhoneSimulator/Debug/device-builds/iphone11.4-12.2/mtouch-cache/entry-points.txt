@@ -8,13 +8,23 @@ Function=xamarin_log
 	/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.2/mtouch-cache/1-Link/mscorlib.dll
 Function=xamarin_get_locale_country_code
 	/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.2/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_start_wwan
+	/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.2/mtouch-cache/1-Link/System.dll
+	/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.2/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=CreateZStream
+	/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.2/mtouch-cache/1-Link/System.dll
+Function=CloseZStream
+	/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.2/mtouch-cache/1-Link/System.dll
+Function=Flush
+	/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.2/mtouch-cache/1-Link/System.dll
+Function=ReadZStream
+	/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.2/mtouch-cache/1-Link/System.dll
+Function=WriteZStream
+	/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.2/mtouch-cache/1-Link/System.dll
 Function=xamarin_find_protocol_wrapper_type
 	/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.2/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=xamarin_release_block_on_main_thread
 	/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.2/mtouch-cache/1-Link/Xamarin.iOS.dll
-Function=xamarin_start_wwan
-	/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.2/mtouch-cache/1-Link/Xamarin.iOS.dll
-	/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.2/mtouch-cache/1-Link/System.dll
 Function=xamarin_get_block_descriptor
 	/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.2/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=xamarin_simd__NMatrix4_objc_msgSend
@@ -977,16 +987,6 @@ Function=xamarin_localized_string_format_9
 	/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.2/mtouch-cache/1-Link/Xamarin.iOS.dll
 Function=xamarin_init_nsthread
 	/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.2/mtouch-cache/1-Link/Xamarin.iOS.dll
-Function=CreateZStream
-	/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.2/mtouch-cache/1-Link/System.dll
-Function=CloseZStream
-	/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.2/mtouch-cache/1-Link/System.dll
-Function=Flush
-	/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.2/mtouch-cache/1-Link/System.dll
-Function=ReadZStream
-	/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.2/mtouch-cache/1-Link/System.dll
-Function=WriteZStream
-	/Users/carlosmendez/Projects/GTI/GTIApp/GTIApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone11.4-12.2/mtouch-cache/1-Link/System.dll
 Function=mono_pmip
 Function=xamarin_dyn_objc_msgSend
 Function=xamarin_dyn_objc_msgSendSuper

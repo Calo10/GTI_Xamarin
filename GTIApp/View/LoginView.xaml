@@ -1,34 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:gradient="clr-namespace:gradient; assembly:gradient"
+             BackgroundColor="#FFF"
              x:Class="GTIApp.View.LoginView">
-    <StackLayout HorizontalOptions="Fill"
-                 VerticalOptions="Center">
-        <!-- Contenido-->
-        <StackLayout Padding="50,0"
+    
+    <AbsoluteLayout>
+        <StackLayout AbsoluteLayout.LayoutBounds="0,0,1,0.3"
+                     AbsoluteLayout.LayoutFlags="All">
+            <gradient:GradientColorStack StartColor="#0064a4" 
+                                         EndColor="#002536">
+                <AbsoluteLayout Padding="20">
+                    <StackLayout AbsoluteLayout.LayoutBounds="0.5,0.2,0.6,0.6"
+                                 AbsoluteLayout.LayoutFlags="All">
+                        <Image 
+                           Source="MainLogo.png"
+                           HeightRequest="150"
+                           WidthRequest="150"/>
+                        <Label Text="GTI App" 
+                               TextColor="White"
+                               Font="Bold"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Start"/>
+                    </StackLayout>
+                </AbsoluteLayout>
+            </gradient:GradientColorStack>
+        </StackLayout>
+        <StackLayout Padding="50" 
+                     AbsoluteLayout.LayoutBounds="1,1,1,0.64"
+                     AbsoluteLayout.LayoutFlags="All">
+            
+             <Frame HasShadow="false" 
+                       CornerRadius="25"
+                       Padding="0"
+                       BackgroundColor="#efefef">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="1"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="45"/>
+                        </Grid.RowDefinitions>
+                        <!--Facebook Login-->
+                        <StackLayout Grid.Column="0" Grid.Row="0"
+                                     Orientation="Horizontal"
+                                     Padding="5"
+                                     Margin="10,0,0,0">
+                            <Image Source="FacebookLogo.png"/>
+                            <Label Text="Facebook" 
+                                   FontSize="Small"
+                                   VerticalOptions="Center"
+                                   TextColor="#9b9b9b"/>
+                        </StackLayout>
+                        <BoxView Grid.Column="1" Grid.Row="0"
+                                 WidthRequest="1" 
+                                 HeightRequest="50"
+                                 BackgroundColor="#9b9b9b"/>
+                        <!--Google Login-->
+                        <StackLayout Grid.Column="2" Grid.Row="0"
+                                     Orientation="Horizontal"
+                                     Padding="5">
+                            <Image Source="GoogleLogo.png"/>
+                            <Label Text="Google" 
+                                   FontSize="Small"
+                                   VerticalOptions="Center"
+                                   TextColor="#9b9b9b"/>
+                        </StackLayout>
+                        
+                    </Grid>
+                </Frame>
+            
+            
+            <!-- Contenido-->
+            <StackLayout Padding="50,0"
                      Spacing="20">
-            <!--User-->
-            <StackLayout Orientation="Horizontal">
-                <Label Text="User:"
-                       HorizontalOptions="Start"/>
-                <Entry Text="{Binding User}"
-                       HorizontalOptions="FillAndExpand"/>
-            </StackLayout>
-            <!--Password-->
-            <StackLayout Orientation="Horizontal">
-                <Label Text="Password:"
-                       HorizontalOptions="Start"/>
-                <Entry Text="{Binding Pass}"
-                       HorizontalOptions="FillAndExpand"
-                       IsPassword="true"/>
-            </StackLayout>
-            <!--Boton-->
-            <StackLayout VerticalOptions="EndAndExpand">
-              <Button Text="LOGIN" 
-                      VerticalOptions="EndAndExpand"
-                      Command="{Binding LoginCommand}"/>
+                 <Entry Placeholder="Usuario"
+                       PlaceholderColor="#9b9b9b"
+                       TextColor="#9b9b9b" 
+                       HeightRequest="45"
+                       Text="{Binding User}"
+                       BackgroundColor="Transparent"/>
+                <!--Password Texbox-->
+                <Entry Placeholder="Contrasena" 
+                       PlaceholderColor="#9b9b9b" 
+                       IsPassword="true"
+                       TextColor="#9b9b9b"
+                       HeightRequest="45"
+                       Text="{Binding Pass}"
+                       BackgroundColor="Transparent"/>
+                <!--Login Button-->
+                <Button Text="INICIAR SESION" 
+                        TextColor="#FFF" 
+                        HeightRequest="45"
+                        BackgroundColor="#008abb" 
+                        CornerRadius="20"
+                        Command="{Binding LoginCommand}"/>
             </StackLayout>
         </StackLayout>
-    </StackLayout>
+    </AbsoluteLayout>
 </ContentPage>
 
